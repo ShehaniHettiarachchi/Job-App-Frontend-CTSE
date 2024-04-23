@@ -15,17 +15,19 @@ jobs:
       - name: Login to Docker Hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       - name: Build Docker Image
-        run: docker build -t chanuth10/reactjs-app .
+        run: docker build -t shehanihettiarachchi12/reactjs-app .
       - name: Publish image to docker hub
-        run: docker push chanuth10/reactjs-app:latest   
+        run: docker push shehanihettiarachchi12/reactjs-app:latest   
 
   deploy: 
     needs: build
     runs-on: aws-ec2    
     steps:
       - name: Pull image from docker hub
-        run: docker pull chanuth10/reactjs-app:latest 
+        run: docker pull shehanihettiarachchi12/reactjs-app:latest 
       - name: Delete Old Container
         run: docker rm -f reactContainer
       - name: Run docker container
-        run: docker run -d -p 5173:5173 --name reactContainer chanuth10/reactjs-app   
+        run: docker run -d -p 5173:5173 --name reactContainer shehanihettiarachchi12/reactjs-app   
+
+
