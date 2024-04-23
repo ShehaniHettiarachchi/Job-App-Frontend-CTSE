@@ -214,7 +214,7 @@ p {
   color: #f1f3f6;
 }
 .footerShow div a:hover {
-  color: #2d5649;
+  color: #2d3b56;
   transform: scale(1.2);
   transition: all 0.3s;
 }
@@ -296,7 +296,7 @@ p {
   align-items: center;
   justify-content: center;
   padding: 10px;
-  color: #2d5649;
+  color: #2d3e56;
 }
 .heroSection .details .card .content p:first-child {
   font-weight: bold;
@@ -401,7 +401,7 @@ p {
 }
 .howitworks .container .banner .card svg {
   font-size: 30px;
-  color: #2d5649;
+  color: #2d3d56;
 }
 .howitworks .container .banner .card p:last-child {
   font-size: 14px;
@@ -465,7 +465,7 @@ p {
   font-size: 24px;
   padding: 10px;
   background: rgb(233, 249, 255);
-  color: #2d5649;
+  color: #2d3a56;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -540,7 +540,7 @@ p {
 .companies .container .banner .card .content .icon {
   padding: 10px;
   font-size: 24px;
-  color: #2d5649;
+  color: #2d3956;
   background: rgb(233, 249, 255);
   display: flex;
   justify-content: center;
@@ -555,7 +555,7 @@ p {
   color: gray;
 }
 .companies .container .banner .card button {
-  color: #2d5649;
+  color: #2d3756;
   background: rgb(233, 249, 255);
   font-weight: bold;
   font-size: 20px;
@@ -639,7 +639,7 @@ p {
   text-decoration: none;
   padding: 7px;
   font-size: 20px;
-  color: #2d5649;
+  color: #2d3356;
   background: rgb(233, 249, 255);
   width: 100%;
   display: block;
@@ -684,14 +684,14 @@ p {
 }
 .jobDetail .container .banner p {
   font-weight: bold;
-  color: #2d5649;
+  color: #2d3856;
 }
 .jobDetail .container .banner p span {
   color: #18191c;
   font-weight: 400;
 }
 .jobDetail .container .banner a {
-  background-color: #2d5649;
+  background-color: #2d3d56;
   color: rgb(233, 249, 255);
   font-size: 20px;
   font-weight: 400;
@@ -725,7 +725,7 @@ p {
 }
 .blogDetail .container .banner p {
   font-weight: bold;
-  color: #2d5649;
+  color: #2d3756;
 }
 .blogDetail .container .banner p span {
   color: #18191c;
@@ -776,7 +776,7 @@ p {
   outline: none;
 }
 .application .container form button {
-  background-color: #2d5649;
+  background-color: #2d3756;
   color: rgb(233, 249, 255);
   font-size: 20px;
   font-weight: 400;
@@ -786,7 +786,7 @@ p {
   width: 100%;
 }
 .application .container form button:hover {
-  background-color: #184235;
+  background-color: #182842;
   transition: all 0.3s;
   cursor: pointer;
 }
@@ -956,7 +956,7 @@ p {
   gap: 10px;
 }
 .job_post .container form .salary_wrapper p {
-  color: #d9534f;
+  color: #58d94f;
   font-size: 14px;
   font-weight: 300;
 }
@@ -974,7 +974,7 @@ p {
 }
 .job_post .container form button {
   width: 100%;
-  background: #2d5649;
+  background: #2d3656;
   font-size: 20px;
   padding: 10px 30px;
   border: none;
@@ -1114,10 +1114,10 @@ p {
   text-transform: uppercase;
   padding: 7px;
   border: none;
-  background: #ffc107;
+  background: #07ffa4;
 }
 .myJobs .container .banner .card .button_wrapper .delete_btn {
-  background: #d9534f;
+  background: #7fd94f;
   color: #f1f3f6;
 }
 .myJobs .container .banner .card .button_wrapper .check_btn {
@@ -1134,13 +1134,13 @@ p {
 }
 .myJobs .container .banner .card .button_wrapper .check_btn:hover {
   transition: all 0.3s;
-  background: #184235;
+  background: #182342;
   color: #f1f3f6;
 }
 .myJobs .container .banner .card .button_wrapper .cross_btn {
   background: transparent;
-  color: #d9534f;
-  border: 1px solid #d9534f;
+  color: #58d94f;
+  border: 1px solid #7bd94f;
   border-radius: 7px;
   width: 50px;
   padding: 8px;
@@ -1151,7 +1151,7 @@ p {
 }
 .myJobs .container .banner .card .button_wrapper .cross_btn:hover {
   transition: all 0.3s;
-  background: #d9534f;
+  background: #71d94f;
   color: #f1f3f6;
 }
 .myJobs .container .banner .card .button_wrapper .edit_btn_wrapper {
@@ -1214,11 +1214,11 @@ nav .menu button {
 }
 nav .menu button:hover {
   color: #f1f3f6;
-  background: #184235;
+  background: #182d42;
   transition: all 0.3s;
   cursor: pointer;
   font-weight: 500;
-  border: 1px solid #184235;
+  border: 1px solid #182842;
 }
 nav .menu li a {
   color: #f1f3f6;
@@ -1228,13 +1228,13 @@ nav .menu li a {
   position: relative;
 }
 nav .menu li a:hover {
-  color: #2d5649;
+  color: #2d3e56;
   transition: all 0.3s;
 }
 nav .menu li a::before {
   content: "";
   position: absolute;
-  background: #184235;
+  background: #182742;
   height: 1px;
   width: 100%;
   left: -100%;
@@ -1304,12 +1304,12 @@ nav .hamburger {
     -moz-box-shadow: 9px 0px 16px 0px rgba(0, 0, 0, 0.75);
   }
   nav .show-menu li a {
-    color: #184235;
+    color: #182642;
     font-weight: 600;
   }
   nav .show-menu button {
-    color: #184235;
-    border: 1px solid #184235;
+    color: #182842;
+    border: 1px solid #182742;
     font-weight: 600;
   }
   nav .show-menu button:hover {
@@ -1335,12 +1335,12 @@ nav .hamburger {
   font-weight: 500;
   padding: 7px 30px;
   background: transparent;
-  border: 1px solid #184235;
-  color: #184235;
+  border: 1px solid #182242;
+  color: #182442;
   text-decoration: none;
 }
 .notfound .content a:hover {
-  background: #184235;
+  background: #182542;
   transition: all 0.3s;
   color: #f1f3f6;
 }
@@ -1366,7 +1366,7 @@ nav .hamburger {
   right: 36px;
   top: 35px;
   font-size: 50px;
-  color: #d9534f;
+  color: #6dd94f;
 }
 .resume-modal .modal-content .close:hover {
   cursor: pointer;

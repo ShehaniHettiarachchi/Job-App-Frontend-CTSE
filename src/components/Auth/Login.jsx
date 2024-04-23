@@ -45,14 +45,17 @@ const Login = () => {
   return (
     <>
       <section className="authPage">
+        <div className="banner">
+          <img src="/login.png" alt="login" />
+        </div>
         <div className="container">
           <div className="header">
             {/* <img src="/JobZeelogo.png" alt="logo" /> */}
-            <h3>Login to your account</h3>
+            <h3>Sign in to your account</h3>
           </div>
           <form>
             <div className="inputTag">
-              <label>Login As</label>
+              <label>Sign in As</label>
               <div>
                 <select value={role} onChange={(e) => setRole(e.target.value)}>
                   <option value="">Select Role</option>
@@ -87,13 +90,10 @@ const Login = () => {
               </div>
             </div>
             <button type="submit" onClick={handleLogin}>
-              Login
+              Sign In
             </button>
-            <Link to={"/register"}>Register Now</Link>
+            <Link to={"/register"}>Create an account</Link>
           </form>
-        </div>
-        <div className="banner">
-          <img src="/login.png" alt="login" />
         </div>
       </section>
     </>
