@@ -85,7 +85,7 @@ const Register = () => {
               <div>
                 <input
                   type="text"
-                  placeholder="Zeeshan"
+                  placeholder="Jhone Doe"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                 />
@@ -97,7 +97,7 @@ const Register = () => {
               <div>
                 <input
                   type="email"
-                  placeholder="zk@gmail.com"
+                  placeholder="jd@gmail.com"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -109,7 +109,7 @@ const Register = () => {
               <div>
                 <input
                   type="number"
-                  placeholder="12345678"
+                  placeholder="0123456789"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
                 />
@@ -121,7 +121,7 @@ const Register = () => {
               <div>
                 <input
                   type="password"
-                  placeholder="Your Password"
+                  placeholder="xxx xxx xxx"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                 />
@@ -129,9 +129,9 @@ const Register = () => {
               </div>
             </div>
             <button type="submit" onClick={handleRegister}>
-              Register
+              Sign Up
             </button>
-            <Link to={"/login"}>Login Now</Link>
+            <Link to={"/login"}>Sign In Now</Link>
           </form>
         </div>
         <div className="banner">
