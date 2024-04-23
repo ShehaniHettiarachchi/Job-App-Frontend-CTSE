@@ -27,7 +27,7 @@ const Blogs = () => {
   return (
     <section className="jobs page">
       <div className="container">
-        <h1>Weakly Technology Blogs</h1>
+        <h1>Technology Blogs</h1>
         <div className="banner">
           {blogs.blogs &&
             blogs.blogs.map((element) => {

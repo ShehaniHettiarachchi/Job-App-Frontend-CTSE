@@ -42,7 +42,7 @@ const PostBlog = () => {
     <>
       <div className="job_post page">
         <div className="container">
-          <h3>POST NEW Blog</h3>
+          <h3>POST NEW BLOG</h3>
           <form onSubmit={handleJobPost}>
             <div className="wrapper">
               <input
